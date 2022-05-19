@@ -84,7 +84,7 @@ def check_news_update():
     with open("news_dict.json", "w") as file:
         json.dump(news_dict, file, indent=4, ensure_ascii=False)
 asdasdasd
-
+asdasdasd
 
     return fresh_news
 
