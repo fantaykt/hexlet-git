@@ -1,0 +1,15 @@
+#!/bin/bash
+cd documents/qa/
+echo "прошел 3 пункт"
+mkdir testscript1 testscript2 testscript3
+echo "прошел 4 пункт"
+cd testscript1
+echo "прошел 5 пункт"
+touch ts1.txt ts2.txt ts3.txt ts4.json ts5.json
+echo "прошел 6 пункт"
+mkdir tsp1 tsp2 tsp3
+echo "прошел 7 пункт"
+ls -la
+echo "прошел 8 пункт"
+mv ts1.txt ts2.txt ../testscript2/
+echo "прошел 13 пункт"
